@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ReusableKit"
-  s.version          = "3.0.0-v1"
+  s.version          = "3.0.0-v2"
   s.summary          = "Generic reusables for Cocoa."
   s.homepage         = "https://github.com/tospery/ReusableKit-Hi"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.swift_version    = "5.0"
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "11.0"
 
   s.default_subspec = "Core"
 
